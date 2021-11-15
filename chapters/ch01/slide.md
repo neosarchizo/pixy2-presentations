@@ -4,11 +4,41 @@ author: neosarchizo
 size: 4K
 ---
 
-# Pixy2 소개 및 프로그램 설치
+# Pixy2 소개
 
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:img:pixy2_in_hand-300px.jpg)
 
 ---
+# 기존 기능들
+- 소형
+- 쉬운 사용법
+- 저렴함
+- 비젼 인식을 바로 사용 가능
+
+---
+
+# 스펙
+
+- 프로세서 : NXP LPC4330, 204 MHz, 듀얼 코어
+- 이미지 프로세서 : Aptina MT9M114, 해상도 1296×976
+- RAM : 264Kb
+- 플래시 메모리 : 2Mb
+- 크기 : 3.8 x 4.2 x 1.5 cm
+- 무게 : 10 grams
+- 자체 광원 : 20 루멘
+
+___
+
+# 외관
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=640&tok=bfa5e6&media=wiki:v2:pixy2_front_labeled.jpg)
+
+___
+
+
+# 외관
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=640&tok=1ad7a1&media=wiki:v2:pixy2_back_labeled.jpg)
+
+___
 
 # 추가된 기능들
 
@@ -97,3 +127,76 @@ CCC (Color Connected Components)
 
 - 인식하고 싶은 사물에 부착해야함
 - 자체적으로 고유한 컬러 정보를 갖고 있는 사물에는 필요 없음
+
+--- 
+# 라인 트래킹
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=500&h=375&tok=f8eac9&media=wiki:v2:image_252.jpg)
+- 로보틱스 분야에서 상당히 많이 사용되는 기술
+- 선과 배경을 구분
+- 교차로에서 진행방향 설정이 어려움
+
+---
+# Pixy2
+
+<video autoplay loop>
+  <source src="https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:right-turn.mp4">
+</video>
+
+- 현재 진행 중인 라인 정보
+- 바코드 인식
+- 초당 60 프레임
+
+---
+# Pixy2
+
+<video autoplay loop>
+  <source src="https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:intersection-right-1.mp4">
+</video>
+
+- 교차로
+
+---
+# 가능한 기능들
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_228.png)
+
+- 검정선, 흰색 배경 또는 그 반대로 인식
+- 특정 너비 선만 인식토록 가능
+
+---
+# 가능한 기능들
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_260.png)
+
+- 각 프레임마다 선의 시작과 끝 부분 파악
+- 각 프레임간의 연속성을 고려 징행 중인 라인에 맞춰 이동
+---
+# 교차로
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_229.png)
+
+---
+# 교차로
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_236.png)
+
+---
+# 교차로
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_240.png)
+
+---
+# 교차로
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_237.png)
+
+---
+# 바코드
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=432&tok=e1fd31&media=wiki:v2:line_tracking_sign_detect1.png)
+
+---
+# 바코드
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=432&tok=73a90d&media=wiki:v2:line_tracking_sign_detect2.png)
+
+---
+# 비디오 기능
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_512.png)
+- PixyMon을 이용해 색의 대한 정보 추출 가능
