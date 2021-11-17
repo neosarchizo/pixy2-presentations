@@ -9,13 +9,6 @@ size: 4K
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:img:pixy2_in_hand-300px.jpg)
 
 ---
-# 기존 기능들
-- 소형
-- 쉬운 사용법
-- 저렴함
-- 비젼 인식을 바로 사용 가능
-
----
 
 # 스펙
 
@@ -39,6 +32,13 @@ ___
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=640&tok=1ad7a1&media=wiki:v2:pixy2_back_labeled.jpg)
 
 ___
+# 기존 기능들
+- 소형
+- 쉬운 사용법
+- 저렴함
+- 비젼 인식을 바로 사용 가능
+
+---
 
 # 추가된 기능들
 
@@ -168,7 +168,7 @@ CCC (Color Connected Components)
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_260.png)
 
 - 각 프레임마다 선의 시작과 끝 부분 파악
-- 각 프레임간의 연속성을 고려 징행 중인 라인에 맞춰 이동
+- 각 프레임간의 연속성을 고려 진행 중인 라인에 맞춰 이동
 ---
 # 교차로
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_229.png)
