@@ -23,13 +23,13 @@ size: 4K
 ___
 
 # 외관
-![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=640&tok=bfa5e6&media=wiki:v2:pixy2_front_labeled.jpg)
+![width:500px](https://i.imgur.com/bvwAWl8.jpg)
 
 ___
 
 
 # 외관
-![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?w=640&tok=1ad7a1&media=wiki:v2:pixy2_back_labeled.jpg)
+![width:500px](https://i.imgur.com/3NB1o8V.jpg)
 
 ___
 # 기존 기능들
