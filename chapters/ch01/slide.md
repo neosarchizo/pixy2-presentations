@@ -6,8 +6,6 @@ size: 4K
 
 # Pixy2 소개
 
-![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:img:pixy2_in_hand-300px.jpg)
-
 ---
 
 # 스펙
