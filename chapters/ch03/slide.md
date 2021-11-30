@@ -56,3 +56,70 @@ ___
 - 버튼을 누른 상태로 원하는 모드 선택
 - 모드 선택 후 LED가 꺼질때까지 버튼을 다시 오래 누름
 - LED가 꺼지면 학습이 취소됨
+
+---
+
+# 주의할 점
+
+- 주위 배경 조명에 따라 학습에 영향을 줄 수 있음
+- 다른 조명 환경으로 이동할시 인식을 못할 수 있음
+- 화이트 밸런스 기본 모드는 자동 설정
+
+---
+
+# 화이트밸런스 수동 설정
+
+- 버튼을 누른 상태에서 흰색 선택
+- A4용지와 같이 흰색 종이를 카메라 앞에 놓는다.
+- 버튼을 클릭한다.
+- LED가 깜빡이고 꺼지면 설정 완료가 된 것임
+
+---
+
+# PixyMon을 이용한 학습
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_216.png)
+
+- 학습할 사물을 카메라 앞에 배치
+- **[Action]** - **[Set signature #...]** 선택
+
+---
+
+# PixyMon을 이용한 학습
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_212.png)
+
+- 학습할 사물의 영역을 마우스로 선택
+
+---
+
+# PixyMon을 이용한 학습
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_214.png)
+
+- 자동으로 학습이 완료되면서 곧바로 트래킹 시작
+
+---
+
+# 보정하기
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_226.png)
+
+- 기어 아이콘 클릭
+- **[Tuning]** - **[Signature # range]** 변경
+
+---
+
+# 보정하기
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_219.png)
+---
+
+# 보정하기
+---
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_222.png)
+
+# 보정하기
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_223.png)
