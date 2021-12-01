@@ -117,13 +117,14 @@ ___
 # 보정하기
 
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_219.png)
+
 ---
 
 # 보정하기
----
 
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_222.png)
 
+---
 # 보정하기
 
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_223.png)
