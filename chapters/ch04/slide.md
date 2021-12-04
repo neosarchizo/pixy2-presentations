@@ -81,3 +81,47 @@ size: 4K
 
 - 값이 증가할수록 잘못 인식되는 블록의 수가 줄어듬
 - 단, 사물을 인식하는 시간이 길어짐
+
+---
+
+# 노출 설정
+
+- Pixy2도 적절한 노출이 필요함
+- 노출이 심한 부분을 하이라이트로 알려줌
+
+---
+
+# 과다노출 표시
+
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_218.png) 
+
+- **[PixyMon Parameters (saved on computer)]** - **[General]** - **[Highlight overexposure]**
+
+---
+
+# 과다노출 표시
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_217.png)
+
+---
+# 과다노출 표시
+
+- 가급적 과다노출로 인해 정확도 낮을시에만 사용
+- 표시 설정 후 카메라 밝기로 조정
+
+---
+
+# 카메라 밝기 설정
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_221.png)
+
+- **[Tuning]** - **[Camera brightness]** 변경
+
+---
+
+# 카메라 밝기 설정
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_220.png)
+
+- 다음과 같이 하이라이트 영역이 적으면 조정이 잘된 것임
