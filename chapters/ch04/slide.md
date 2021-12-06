@@ -144,3 +144,27 @@ size: 4K
 
 ---
 
+# 모드 학습시 인식 한계 설정
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_230.png)
+
+- **[Expert]** - **[Signature teach threshold]** 변경
+
+---
+
+# 모드 학습시 인식 한계 설정
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_235.png)
+
+---
+
+# 모드 학습시 인식 한계 설정
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_238.png)
+
+
+---
+
+# 모드 학습시 인식 한계 설정
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_231.png)
