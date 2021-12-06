@@ -125,3 +125,22 @@ size: 4K
 ![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_220.png)
 
 - 다음과 같이 하이라이트 영역이 적으면 조정이 잘된 것임
+
+---
+
+# 최소 밝기 설정
+
+![](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_221.png)
+
+- **[Tuning]** - **[Min brightness]** 변경
+
+---
+
+# 최소 밝기 설정
+
+- 기준보다 낮은 밝기의 픽셀은 무시
+- 잘못 인식되는 픽셀이 많은 경우 최소 밝기를 높임
+- 인식되는 픽셀이 적은 경우 최소 밝기를 낮춤
+
+---
+
