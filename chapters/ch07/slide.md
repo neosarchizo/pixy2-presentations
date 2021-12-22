@@ -54,7 +54,12 @@ void setup()
   
   pixy.init();
 }
+```
 
+---
+# ccc_hello_world
+
+```cpp
 void loop()
 { 
   int i; 
@@ -94,7 +99,12 @@ void setup()
   pixy.init();
   pixy.changeProg("color_connected_components");
 }
+```
 
+---
+# ccc_pantilt
+
+```cpp
 void loop()
 {  
   static int i = 0;
