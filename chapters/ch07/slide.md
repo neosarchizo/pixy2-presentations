@@ -16,8 +16,9 @@ size: 4K
 Pixy2 pixy;
 ```
 
-- `getBlocks()` : Pixy2가 인식한 사물의 갯수
+- `getBlocks()` : Pixy2가 인식한 사물 정보 가져오는 명령어
 - `pixy.ccc.blocks[]` : 각 사물에 대한 정보
+- `pixy.ccc.numBlocks` : 인식된 사물 갯수
 
 ---
 
@@ -33,10 +34,27 @@ Pixy2 pixy;
 
 # pixy.ccc.blocks
 
+|                                            -88도                                            |                                            -45도                                            |
+| :-----------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
+| ![width:300px](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_315.png) | ![width:300px](https://docs.pixycam.com/wiki/lib/exe/fetch.php?media=wiki:v2:image_316.png) |
+
 - `pixy.ccc.blocks[i].m_angle` : 인식된 사물이 컬러 코드인 경우, 각도 (-180 ~ 180)
+
+---
+
+# pixy.ccc.blocks
+
 - `pixy.ccc.blocks[i].m_index` : 사물 인덱스
 - `pixy.ccc.blocks[i].m_age` : 사물이 인식된 프레임 수
 - `pixy.ccc.blocks[i].print()` : 시리얼 포트를 통해 객체 정보 출력
+
+---
+
+# 기타
+
+- `pixy.setServos` : Pixy2 서보 모터 제어
+- `pixy.setBrightness` : 밝기 조절
+- `pixy.setLED` : 삼색 LED 색 변경
 
 ---
 
@@ -51,20 +69,21 @@ void setup()
 {
   Serial.begin(115200);
   Serial.print("Starting...\n");
-  
+
   pixy.init();
 }
 ```
 
 ---
+
 # ccc_hello_world
 
 ```cpp
 void loop()
-{ 
-  int i; 
+{
+  int i;
   pixy.ccc.getBlocks();
-  
+
   if (pixy.ccc.numBlocks)
   {
     Serial.print("Detected ");
@@ -76,11 +95,12 @@ void loop()
       Serial.print(": ");
       pixy.ccc.blocks[i].print();
     }
-  }  
+  }
 }
 ```
 
 ---
+
 # ccc_pantilt
 
 ```cpp
@@ -95,45 +115,46 @@ void setup()
 {
   Serial.begin(115200);
   Serial.print("Starting...\n");
- 
+
   pixy.init();
   pixy.changeProg("color_connected_components");
 }
 ```
 
 ---
+
 # ccc_pantilt
 
 ```cpp
 void loop()
-{  
+{
   static int i = 0;
   int j;
-  char buf[64]; 
+  char buf[64];
   int32_t panOffset, tiltOffset;
-  
+
   pixy.ccc.getBlocks();
-  
+
   if (pixy.ccc.numBlocks)
-  {        
+  {
     i++;
-    
+
     if (i%60==0)
-      Serial.println(i);   
-    
+      Serial.println(i);
+
     panOffset = (int32_t)pixy.frameWidth/2 - (int32_t)pixy.ccc.blocks[0].m_x;
-    tiltOffset = (int32_t)pixy.ccc.blocks[0].m_y - (int32_t)pixy.frameHeight/2;  
-  
+    tiltOffset = (int32_t)pixy.ccc.blocks[0].m_y - (int32_t)pixy.frameHeight/2;
+
     panLoop.update(panOffset);
     tiltLoop.update(tiltOffset);
-  
+
     pixy.setServos(panLoop.m_command, tiltLoop.m_command);
 
 #if 0
     sprintf(buf, "%ld %ld %ld %ld", rotateLoop.m_command, translateLoop.m_command, left, right);
-    Serial.println(buf);   
+    Serial.println(buf);
 #endif
-  }  
+  }
   else
   {
     panLoop.reset();
