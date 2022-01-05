@@ -265,3 +265,12 @@ size: 4K
 0x?? // 프레임 에이징 값 (0 ~ 255)
 
 ```
+
+---
+
+# 참고
+
+- 이 외
+  - 라인 트래킹
+  - 비디오
+- [How to talk to Pixy2 (bit.ly/34hbvhj)](https://bit.ly/34hbvhj)
